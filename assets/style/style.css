@@ -1,0 +1,316 @@
+/* Generell */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+/* Font Faces */
+
+@font-face {
+    font-family: "ubuntu";
+    src: url("../fonts/ubuntu/Ubuntu-Light.ttf");
+}
+
+/* Main section */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header div {
+    margin: 5em 0;
+}
+
+header nav {
+    margin-bottom: 10em;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #a17c43;
+    font-family: "ubuntu";
+    font-size: 3rem;
+    margin: 0 15px;
+}
+
+header nav i {
+    /* float: right; */
+    color: #d4a358;
+    text-align: center;
+    padding-left: 15px;
+}
+
+.bg_hotel {
+    background-image: url("../img/hero_image.png");
+    width: 100vw;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg_hotel h1 {
+    font-family: "ubuntu";
+    font-size: 10rem;
+    color: white;
+    padding-top: 1em;
+    margin-bottom: 15px;
+    margin-top: 3em;
+}
+
+.bg_hotel p {
+    color: white;
+    font-size: 4rem;
+    font-family: "ubuntu";
+}
+
+.bg_hotel button {
+    color: white;
+    font-family: "ubuntu";
+    padding: 25px 10em;
+    font-size: 2rem;
+    border: 1px solid #d4a358;
+    border-radius: 10px 10px;
+    background-color: #d4a358;
+    margin-top: 3em;
+    margin-bottom: 8em;
+}
+
+.white_under {
+    padding: 10px;
+    padding-bottom: 15px;
+    background-color: white;
+    width: 100vw;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Main Section */
+
+.face {
+    text-align: center;
+    font-size: 5rem;
+    color: #a17c43;
+    padding-top: 25px;
+    font-family: "ubuntu";
+}
+
+.topbar  {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 7em;
+    margin-bottom: 15em;
+}
+
+.topbar figcaption {
+    color: #a17c43;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: .5em;
+}
+
+.room_rates {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 4rem;
+    color: #a17c43;
+}
+
+.gallerie {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 60vw;
+}
+
+.twin {
+    background-image: url("../img/standard_twin_room.png");
+    width: 500px;
+    height: 360px;
+    margin-bottom: 58px;
+    border-radius: 10px;
+}
+
+.standart {
+    background-image: url("../img/standard_room.png");
+    width: 500px;
+    height: 360px;
+    margin-bottom: 58px;
+    border-radius: 10px;
+}
+
+.view {
+    background-image: url("../img/standard_view_room.png");
+    width: 500px;
+    height: 360px;
+    margin-bottom: 58px;
+    border-radius: 10px;
+}
+
+.deluxe {
+    background-image: url("../img/deluxe_room.png");
+    width: 500px;
+    height: 360px;
+    margin-bottom: 58px;
+    border-radius: 10px;
+}
+
+.text_size {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    font-size: 3rem;
+    color: white;
+}
+
+.gallerie button {
+    color: white;
+    font-family: "ubuntu";
+    padding: 15px 1em;
+    font-size: 2rem;
+    border: 1px solid #d4a358;
+    border-radius: 10px 10px;
+    background-color: #d4a358;
+    margin-top: 10px;
+}
+
+.get_room {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 6rem;
+    margin-top: 4em;
+}
+
+.get_room h4 {
+    color: #a17c43;
+    margin-bottom: 1em;
+}
+
+.get_room button {
+    color: white;
+    font-family: "ubuntu";
+    padding: 15px 10em;
+    font-size: 2rem;
+    border: 1px solid #d4a358;
+    border-radius: 10px 10px;
+    background-color: #d4a358;
+    margin-bottom: 5em;
+}
+
+
+.end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111111;
+    color: white;
+    height: 50vh;
+    padding: 0 35px;
+}
+
+.end div img {
+    margin-bottom: 7em;
+}
+
+.end div p {
+    font-family: "ubuntu";
+    font-size: 1.5rem;
+}
+
+.after::after {
+    content: "\A";
+    white-space: pre;
+}
+
+.end div a {
+    text-decoration: none;
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.end nav li {
+    list-style: none;
+    margin-bottom: 3.5em;
+}
+
+.end nav li a {
+    font-family: "ubuntu";
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+
+.end form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.end form label {
+    font-size: 3rem;
+}
+
+input[type=email] {
+    padding: 15px 200px 15px 15px;
+    border-radius: 10px;
+}
+
+input[type=submit] {
+    background-color: #DFAA5B;
+    padding: 15px 0;
+    border: 2px solid #DFAA5B;
+    font-family: "ubuntu";
+    color: white;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #c97d0c;
+    border: 1px solid #c97d0c;
+}
+
+input[type=submit]:hover {
+    background-color: #c97d0c;
+    border: 2px solid #c97d0c;
+}
+
+
+/* Hover */
+
+a:hover {
+    text-decoration: underline;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+.email:hover {
+    text-decoration: underline;
+}
+
+input[type=email]:focus {
+    outline: transparent;
+}

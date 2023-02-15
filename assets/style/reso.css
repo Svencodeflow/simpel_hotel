@@ -1,0 +1,34 @@
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 5px;
+    }
+    
+    .bg_hotel h1 {
+        font-size: 7rem;
+        margin-top: 9em;
+    }
+
+    .white_under {
+        margin-top: 35em;
+    }
+
+    .end form {
+        gap: 5px;
+        width: 30vw;
+    }
+
+    input[type=email] {
+        padding: 10px 0;
+    }
+
+    .respons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .end div p {
+        font-size: 2.5rem;
+    }
+}
